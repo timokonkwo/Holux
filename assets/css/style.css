@@ -431,6 +431,13 @@ button {
   color: var(--first-color)
 }
 
+.swiper-button-prev {
+  left: calc(50% - 3rem)
+}
+
+.swiper-button-next {
+  right: calc(50% - 3rem)
+}
 /*=============== VALUE ===============*/
 
 /*Rotate icon and add shadows*/
