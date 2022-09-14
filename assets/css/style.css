@@ -415,6 +415,14 @@ button {
 }
 
 /* Swiper class */
+.swiper-button-prev::after, .swiper-button-next::after {
+  content: "";
+}
+
+.swiper-button-prev, .swiper-button-next {
+  top: initial;
+  bottom: 0;
+}
 
 /*=============== VALUE ===============*/
 
