@@ -456,6 +456,14 @@ button {
 	width: 266px;
 	height: 316px;
 	background-color: hsl(228, 24%, 97%);
+	border-radius: 135px 135px 1rem 1rem;
+}
+
+.value__img {
+	position: absolute;
+	width: 250px;
+	height: 300px;
+	overflow: hidden;
 }
 
 /*Rotate icon and add shadows*/
