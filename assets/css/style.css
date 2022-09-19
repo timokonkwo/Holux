@@ -442,7 +442,21 @@ button {
 
 
 /*=============== VALUE ===============*/
+.value__container {
+	row-gap: 3rem;
+}
 
+.values__img{
+	position: relative;
+	display: flex;
+	justify-content: center;
+}
+
+.value__orbe {
+	width: 266px;
+	height: 316px;
+	background-color: hsl(228, 24%, 97%);
+}
 
 /*Rotate icon and add shadows*/
 
