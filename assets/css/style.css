@@ -464,6 +464,9 @@ button {
 	width: 250px;
 	height: 300px;
 	overflow: hidden;
+	border-radius: 125px 125px 12px 12px;
+	inset: 0;
+	margin: auto;
 }
 
 /*Rotate icon and add shadows*/
