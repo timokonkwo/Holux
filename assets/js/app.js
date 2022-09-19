@@ -9,7 +9,7 @@ window.addEventListener('scroll', scrollHeader);
 
 /*=============== SWIPER FOR POPULAR SECTION ===============*/
 const popularSectionSwiper = new Swiper(".popular__container", {
-    spaceBetween: 32,
+    spaceBetween: 60,
     grabCursor: true,
     centeredSlides: true,
     slidesPerView: "auto",
