@@ -1,2 +1,2 @@
 # Holux
-A real estate website for Holux group
+A fully responsive real estate website for Holux group.
