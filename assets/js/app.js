@@ -42,20 +42,17 @@ accordionItems.forEach(item => {
     const toggleItem = item => {
         const accordionContent = item.querySelector(".value__accordion-content");
 
-        const arrIcon = item.querySelector('.value__accordion-arrow i');
 
         if (item.classList.contains('accordion-open')) {
             accordionContent.removeAttribute('style');
             item.classList.remove('accordion-open');
             
-            arrIcon.classList.remove('open__item-icon');
             
         } else {
             accordionContent.style.height = accordionContent.scrollHeight + 'px';
 
             item.classList.add('accordion-open');
 
-            arrIcon.classList.add('open__item-icon');
         }
     }
 })
