@@ -421,7 +421,6 @@ button {
 
 .swiper-button-prev, .swiper-button-next {
   top: initial;
-  bottom: 4.7rem;
   width: initial;
   height: initial;
   background-color: var(--container-color);
@@ -443,8 +442,7 @@ button {
 
 /*=============== VALUE ===============*/
 .value__container {
-	margin-top: 5rem;
-	row-gap: 12rem;
+	row-gap: 3rem;
 }
 
 .values__images{
@@ -453,7 +451,7 @@ button {
 	justify-content: center;
 }
 
-.value__, .contact__orbe {
+.value__orbe, .contact__orbe {
 	width: 266px;
 	height: 316px;
 	background-color: hsl(228, 24%, 97%);
@@ -564,13 +562,13 @@ button {
 	justify-content: center;
 }
 
-.contact__orbe {
-	/* Added the same styling of .value__orbe */
+/* .contact__orbe {
+	Added the same styling of .value__orbe
 }
 
 .contact__img {
-	/* Added the same styling of .value__img */
-}
+	Added the same styling of .value__img
+} */
 
 .contact__description {
 	font-size: var(--small-font-size);
