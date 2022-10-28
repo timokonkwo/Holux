@@ -578,7 +578,7 @@ button {
 
 .contact__card {
 	display: grid;
-	/* grid-template-columns: repeat(2, 1fr); */
+	grid-template-columns: repeat(2, 1fr);
 	gap: 1.25rem .75rem;
 }
 
@@ -592,7 +592,6 @@ button {
 
 .contact__card-info {
 	display: flex;
-	flex-direction: column;
 	align-items: flex-start;
 	column-gap: .75rem;
 	margin-bottom: 1.25rem;
@@ -608,7 +607,6 @@ button {
 
 .contact__card-title {
 	font-size: var(--normal-font-size);
-
 }
 
 .contact__card-description {
@@ -617,7 +615,6 @@ button {
 
 .contact__card-button {
 	font-size: var(--small-font-size);
-	padding: 1px 0;
 	width: 100%;
 	border-radius: .25rem;
 	background: var(--first-color-lighten);
