@@ -452,14 +452,14 @@ button {
 	justify-content: center;
 }
 
-.value__orbe, .contact__orbe {
+.value__orbe {
 	width: 266px;
 	height: 316px;
 	background-color: hsl(228, 24%, 97%);
 	border-radius: 135px 135px 1rem 1rem;
 }
 
-.value__img, .contact__img {
+.value__img {
 	position: absolute;
 	width: 250px;
 	height: 300px;
@@ -554,7 +554,7 @@ button {
 
 /*=============== CONTACT ===============*/
 .contact__container {
-	row-gap: 2rem;
+	row-gap: 3rem;
 }
 
 .contact__images {
@@ -563,13 +563,23 @@ button {
 	justify-content: center;
 }
 
-/* .contact__orbe {
-	Added the same styling of .value__orbe
+.contact__orbe {
+	width: 266px;
+	height: 316px;
+	background-color: hsl(228, 24%, 97%);
+	border-radius: 135px 135px 1rem 1rem;
 }
 
 .contact__img {
-	Added the same styling of .value__img
-} */
+	position: absolute;
+	width: 250px;
+	height: 300px;
+	overflow: hidden;
+	border-radius: 125px 125px 12px 12px;
+	inset: 0;
+	margin: auto;
+	box-shadow: 0 16px 32px hsla(228, 66%, 25%, .25);
+} 
 
 .contact__description {
 	font-size: var(--small-font-size);
