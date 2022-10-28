@@ -452,14 +452,14 @@ button {
 	justify-content: center;
 }
 
-.value__orbe {
+.value__, .contact__orbe {
 	width: 266px;
 	height: 316px;
 	background-color: hsl(228, 24%, 97%);
 	border-radius: 135px 135px 1rem 1rem;
 }
 
-.value__img {
+.value__img, .contact__img {
 	position: absolute;
 	width: 250px;
 	height: 300px;
@@ -553,6 +553,49 @@ button {
 /*Rotate icon and add shadows*/
 
 /*=============== CONTACT ===============*/
+.contact__container {
+	row-gap: 2rem;
+}
+
+.contact__images {
+	position: relative;
+	display: flex;
+	justify-content: center;
+}
+
+.contact__orbe {
+	/* Added the same styling of .value__orbe */
+}
+
+.contact__img {
+	/* Added the same styling of .value__img */
+}
+
+.contact__description {
+	font-size: var(--small-font-size);
+	margin-bottom: 2.5rem;
+}
+
+.contact__card {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 1.25rem;
+}
+
+.contact__card-box {
+	background-color: var(--body-color);
+	border: 2px solid var(--border-color);
+	padding: 1.25rem .75rem;
+	border-radius: .5rem;
+	transition: .3s;
+}
+
+.contact__card-info {
+	display: flex;
+	align-items: flex-start;
+	column-gap: .75rem;
+}
+
 
 /*=============== SUBSCRIBE ===============*/
 
