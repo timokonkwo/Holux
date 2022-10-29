@@ -588,14 +588,14 @@ button {
 
 .contact__card {
 	display: grid;
-	/* grid-template-columns: repeat(2, 1fr); */
+	grid-template-columns: repeat(2, 1fr);
 	gap: 1.25rem .75rem;
 }
 
 .contact__card-box {
 	background-color: var(--body-color);
 	border: 2px solid var(--border-color);
-	padding: 1.25rem .75rem;
+	padding: 1.25rem .42rem;
 	border-radius: .5rem;
 	transition: .3s;
 }
