@@ -674,6 +674,10 @@ button {
 	font-size: var(--small-font-size);
 }
 
+.subscribe__button:hover {
+	background: var(--first-color);
+}
+
 /*=============== FOOTER ===============*/
 
 /*=============== SCROLL BAR ===============*/
