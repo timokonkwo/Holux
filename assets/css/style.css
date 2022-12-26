@@ -648,6 +648,11 @@ button {
 	padding: 2.5rem 0;
 }
 
+.subscribe__container {
+	background-color: var(--first-color);
+	padding: 3rem 2rem;
+}
+
 /*=============== FOOTER ===============*/
 
 /*=============== SCROLL BAR ===============*/
