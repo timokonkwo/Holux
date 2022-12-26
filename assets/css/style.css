@@ -687,6 +687,9 @@ button {
 	color: var(--first-color);
 	font-size: var(--h3-font-size);
 	font-weight: var(--font-semi-bold);
+	display: inline-flex;
+	align-items: center;
+	column-gap: .25rem;
 }
 
 /*=============== SCROLL BAR ===============*/
