@@ -652,6 +652,8 @@ button {
 	background-color: var(--first-color);
 	padding: 3rem 2rem;
 	border-radius: 1.25rem;
+	border: 6px solid var(--first-color-light);
+	text-align: center;
 }
 
 /*=============== FOOTER ===============*/
