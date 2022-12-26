@@ -733,6 +733,12 @@ button {
 	column-gap: 1rem;
 }
 
+.footer__social-link {
+	font-size: 1.25rem;
+	color: var(--text-color);
+	transition: .3s;
+}
+
 /*=============== SCROLL BAR ===============*/
 
 /*=============== SCROLL UP ===============*/
