@@ -743,6 +743,17 @@ button {
 	color: var(--title-color);
 }
 
+.footer__info,
+.footer__privacy {
+	display: flex;
+}
+
+.footer__info {
+	padding-bottom: 6rem; 
+	margin-top: 5.5rem;
+	flex-direction: column;
+	text-align: center;
+}
 /*=============== SCROLL BAR ===============*/
 
 /*=============== SCROLL UP ===============*/
