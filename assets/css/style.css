@@ -739,6 +739,10 @@ button {
 	transition: .3s;
 }
 
+.footer__social-link:hover {
+	color: var(--title-color);
+}
+
 /*=============== SCROLL BAR ===============*/
 
 /*=============== SCROLL UP ===============*/
