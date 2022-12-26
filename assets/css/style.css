@@ -761,6 +761,11 @@ button {
 	font-weight: var(--font-medium);
 	color: var(--text-color);
 }
+
+.footer__privacy {
+	justify-content: center;
+	column-gap: 1.25rem;
+}
 /*=============== SCROLL BAR ===============*/
 
 /*=============== SCROLL UP ===============*/
