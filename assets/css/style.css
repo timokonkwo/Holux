@@ -651,6 +651,7 @@ button {
 .subscribe__container {
 	background-color: var(--first-color);
 	padding: 3rem 2rem;
+	border-radius: 1.25rem;
 }
 
 /*=============== FOOTER ===============*/
