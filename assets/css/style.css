@@ -697,6 +697,11 @@ button {
 	font-size: 1.25rem;
 }
 
+.footer__description, .footer__link {
+	font-size: var(--small-font-size);
+	font-weight: var(--font-medium);
+}
+
 /*=============== SCROLL BAR ===============*/
 
 /*=============== SCROLL UP ===============*/
