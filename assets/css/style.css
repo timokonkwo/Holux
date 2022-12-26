@@ -662,6 +662,10 @@ button {
 	margin-bottom: 1rem;
 }
 
+.subscribe__description {
+	color: hsl(228, 90%, 92%);
+}
+
 /*=============== FOOTER ===============*/
 
 /*=============== SCROLL BAR ===============*/
