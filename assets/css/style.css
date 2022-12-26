@@ -656,6 +656,12 @@ button {
 	text-align: center;
 }
 
+.subscribe__title {
+	font-size: var(--h2-font-size);
+	color: #fff;
+	margin-bottom: 1rem;
+}
+
 /*=============== FOOTER ===============*/
 
 /*=============== SCROLL BAR ===============*/
