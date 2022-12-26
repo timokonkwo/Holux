@@ -753,6 +753,11 @@ button {
 	margin-top: 5.5rem;
 	flex-direction: column;
 	text-align: center;
+	row-gap: 1.5rem;
+}
+
+.footer__copy, .footer__privacy a {
+	font-size: var(--smaller-font-size);
 }
 /*=============== SCROLL BAR ===============*/
 
