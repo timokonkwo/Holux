@@ -664,6 +664,8 @@ button {
 
 .subscribe__description {
 	color: hsl(228, 90%, 92%);
+	font-size: var(--small-font-size);
+	margin-bottom: 2rem;
 }
 
 /*=============== FOOTER ===============*/
